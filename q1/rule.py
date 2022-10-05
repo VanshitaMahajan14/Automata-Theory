@@ -11,7 +11,6 @@ n = a[1]
 n = int(n)
 k = a[2]
 k = int(k)
-# print(m ,n ,k)
 
 grid = []
 
@@ -25,7 +24,6 @@ for count in range (0,k):
     x1 = d[0]
     x1 = int(x1)
     x2 = d[1]
-    #print(x2)
     x2 = int(x2)
     grid[n-x2][x1-1] = 1
     count+=1
@@ -59,7 +57,7 @@ while(1):
             g.write("\n")
     g.close()
     
-    array = []      #making temp array of size [n+2] * [m+1]
+    array = []      #making temp array of size [n+2] * [m+2]
     for i in range(0,n+2):
         l = [0]*(m+2)
         array.append(l)
