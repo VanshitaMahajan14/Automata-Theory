@@ -3,14 +3,13 @@ Programs that display a render (grid) according to a specified rule of cellular 
 
 FILE INFORMATION:
 
-config.txt:  Contains initial state of the grid, i.e. the location of cells that are live initially.
+config.txt:  Contains initial state of the grid, i.e. the location of cells that are live initially. <br />
+rule.py:     Containe the rule according to which the render changes in each succesive state. <br />
 
-rule.py:     Containe the rule according to which the render changes in each succesive state.
-
-output.txt:  File that Displays the grid state in each iteration. Live cells are represented by an 'X'
+output.txt:  File that Displays the grid state in each iteration. Live cells are represented by an 'X' <br />
              while dead cells are represented by an 'O'.
 
-Instructions to run (Type the following command on terminal):
+Instructions to run (Type the following command on terminal): <br />
 for q1: q1/rule.py <br />
 for q2: q2/rule.py <br />
 for q3: q3/rule.py <br />
