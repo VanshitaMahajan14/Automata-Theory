@@ -11,9 +11,9 @@ output.txt:  File that Displays the grid state in each iteration. Live cells are
              while dead cells are represented by an 'O'.
 
 Instructions to run (Type the following command on terminal):
-for q1: q1/rule.py
-for q2: q2/rule.py
-for q3: q3/rule.py
+for q1: q1/rule.py <br />
+for q2: q2/rule.py <br />
+for q3: q3/rule.py <br />
 
 RULES:
 
