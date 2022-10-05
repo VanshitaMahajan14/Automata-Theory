@@ -41,15 +41,6 @@ print("\n")
 
 sum = 0
 while(1):
-    # with open("q1/output.txt","w") as g:   #write config.txt onto output initially
-
-    #     for i in range(0,n):
-    #         for j in range(0,m):
-    #             a = str(grid[i][j])
-    #             g.write(a)
-    #         g.write("\n")
-            
-
     iter = input("Enter number of iterations:\n")
     iter = int(iter)
     print()
@@ -126,10 +117,3 @@ while(1):
 
     f.close()
     g.close()
-
-
-
-
-
-
-
