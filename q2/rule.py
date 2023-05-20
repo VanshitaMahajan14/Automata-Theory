@@ -50,7 +50,7 @@ while(1):
             
     g.close()
     
-    array = []      #making temp array of size [n+2] * [m+1]
+    array = []      #making temp array of size [n+1] * [m+1]
     for i in range(0,n+2):
         l = [0]*(m+2)
         array.append(l)
