@@ -1,7 +1,7 @@
 # Automata-Theory
 Programs that display a render (grid) according to a specified rule of cellular automaton, given an initial grid state.
 
-FILE INFORMATION:
+### FILE INFORMATION:
 
 config.txt:  Contains initial state of the grid, i.e. the location of cells that are live initially. <br />
 rule.py:     Contains the rule according to which the render changes in each succesive state. <br />
@@ -14,7 +14,7 @@ for q1: q1/rule.py <br />
 for q2: q2/rule.py <br />
 for q3: q3/rule.py <br />
 
-RULES:
+### RULES:
 
 q1: if the cell to the immediate left of the current cell is live, the current cell becomes live.
 
